@@ -1,4 +1,4 @@
- Surf Weather
+ ## Surf Weather
 
 Aloha! Este é um aplicativo em Python que verifica as condições meteorológicas para surfar em uma cidade específica. 
 Essa apicação usa a API OpenWeatherMap para obter dados meteorológicos e avalia se é seguro surfar com base na temperatura, velocidade do vento, visibilidade e cobertura de nuvens.
