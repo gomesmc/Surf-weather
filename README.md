@@ -1,45 +1,44 @@
- ## Surf Weather
+# Surf Weather 🌊
 
-Aloha! Este é um aplicativo em Python que verifica as condições meteorológicas para surfar em uma cidade específica. 
-Essa apicação usa a API OpenWeatherMap para obter dados meteorológicos e avalia se é seguro surfar com base na temperatura, velocidade do vento, visibilidade e cobertura de nuvens.
+A Python app that checks weather conditions for surfing in any city using the **OpenWeatherMap API**. It evaluates temperature, wind speed, visibility, and cloud cover to determine whether conditions are suitable for surfing.
 
-## Funcionalidades
+## Features
 
-- Solicita ao usuário o nome de uma cidade.
-- Faz uma solicitação à API OpenWeatherMap para obter dados meteorológicos.
-- Exibe as condições meteorológicas atuais da cidade.
-- Avalia se é seguro surfar com base nas condições meteorológicas.
+- Takes a city name as input
+- Fetches real-time weather data from the OpenWeatherMap API
+- Displays current weather conditions
+- Evaluates surf safety based on meteorological thresholds
 
-## Pré-requisitos
+## Requirements
 
 - Python 3.x
-- Biblioteca `requests`
+- `requests` library
 
-## Instalação
+## Setup
 
-1. Clone o repositório para sua máquina local:
-    ```sh
-    git clone https://github.com/SEU_USUARIO/surf-weather-checker.git
-    cd surf-weather-checker
-    ```
+1. Clone the repository:
+```bash
+git clone https://github.com/gomesmc/Surf-weather.git
+cd Surf-weather
+```
 
-2. Crie um ambiente virtual (opcional, mas recomendado):
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-    ```
+2. (Optional) Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-3. Instale as dependências:
-    ```sh
-    pip install requests
-    ```
+3. Install dependencies:
+```bash
+pip install requests
+```
 
-4. Obtenha uma chave de API do OpenWeatherMap [aqui](https://home.openweathermap.org/users/sign_up).
+4. Get a free API key at [openweathermap.org](https://openweathermap.org/api) and replace `'YOUR_API_KEY'` in the code.
 
-5. Adicione sua chave de API no código, substituindo `'YOUR_API_KEY'` pela sua chave.
+## Usage
 
-## Uso
-
-Execute o script:
-```sh
+```bash
 python aloha.py
+```
+![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-EB6E4B?style=flat-square&logo=data:image/svg+xml;base64,&logoColor=white)
