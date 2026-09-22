@@ -1,4 +1,4 @@
-# Surf Weather 🌊
+# Surf Weather 
 
 A Python app that checks weather conditions for surfing in any city using the **OpenWeatherMap API**. It evaluates temperature, wind speed, visibility, and cloud cover to determine whether conditions are suitable for surfing.
 
